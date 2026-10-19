@@ -168,7 +168,7 @@ class _PuzzleBoardScreenState extends State<PuzzleBoardScreen> {
       return Theme.of(context).primaryColor;
     }
 
-    final palette = Colors.primaries;
+    const palette = Colors.primaries;
     return palette[tileValue % palette.length];
   }
 
